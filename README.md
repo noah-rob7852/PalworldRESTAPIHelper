@@ -3,6 +3,12 @@
 
 **PalworldRESTAPIHelper** is a Python module designed to simplify interaction with the Palworld REST API. It wraps common server commands such as retrieving server info, managing players, sending announcements, and controlling the server lifecycle.
 
+When instantiating this class, you will need to specify 3 arguments:
+server_url - The URL of the Rest API for the palworld server. Formatted like http://localhost:7000/v1/api
+server_admin_name - usually "admin". 
+server_admin_pass - The admin password for the server.
+
+
 <h2>Features</h2>
 - Fetch server info, metrics, and settings
 - Get a list of connected players
