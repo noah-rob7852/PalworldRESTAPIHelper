@@ -39,5 +39,5 @@ _Server Control_
 - announce_message(message: str): Sends a broadcast message to all players.
 - save_world(): Saves the current state of the world.
 - shutdown_server(wait_time: int, message: str): Gracefully shuts down the server after a delay.
-- force_stop_server(wait_time: int, message: str): Forces the server to stop (actually calls the save endpoint—consider reviewing this).
+- force_stop_server(wait_time: int, message: str): Forces the server to stop.
 
