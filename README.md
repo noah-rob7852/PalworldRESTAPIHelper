@@ -9,7 +9,7 @@
 
 **server_admin_name** - usually "admin". 
 
-server_admin_pass - The admin password for the server.
+**server_admin_pass** - The admin password for the server.
 
 
 
