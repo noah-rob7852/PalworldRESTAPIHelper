@@ -312,7 +312,7 @@ class PalworldServerHelper:
                 "waittime": wait_time,
                 "message": message
             }
-            stop_result = self.__base_request("save", payload=payload, method="POST")
+            stop_result = self.__base_request("stop", payload=payload, method="POST")
             return stop_result
 
         except Exception as e:
